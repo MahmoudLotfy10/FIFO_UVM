@@ -1,0 +1,171 @@
+Coverage Report by instance with details
+
+=================================================================================
+=== Instance: /top/DUT/Assertions_inst
+=== Design Unit: work.Assertions
+=================================================================================
+
+Assertion Coverage:
+    Assertions                      31        31         0   100.00%
+--------------------------------------------------------------------
+Name                 File(Line)                   Failure      Pass 
+                                                  Count        Count
+--------------------------------------------------------------------
+/top/DUT/Assertions_inst/max_fifo_addr_p
+                     Assertions.sv(13)                  0          1
+/top/DUT/Assertions_inst/wr_ptr1_p
+                     Assertions.sv(20)                  0          1
+/top/DUT/Assertions_inst/wr_ptr2_p
+                     Assertions.sv(26)                  0          1
+/top/DUT/Assertions_inst/rd_ptr1_p
+                     Assertions.sv(33)                  0          1
+/top/DUT/Assertions_inst/rd_ptr2_p
+                     Assertions.sv(39)                  0          1
+/top/DUT/Assertions_inst/counter1_p
+                     Assertions.sv(47)                  0          1
+/top/DUT/Assertions_inst/counter2_p
+                     Assertions.sv(53)                  0          1
+/top/DUT/Assertions_inst/counter3_p
+                     Assertions.sv(60)                  0          1
+/top/DUT/Assertions_inst/counter4_p
+                     Assertions.sv(66)                  0          1
+/top/DUT/Assertions_inst/counter5_p
+                     Assertions.sv(72)                  0          1
+/top/DUT/Assertions_inst/wr_ack1_p
+                     Assertions.sv(79)                  0          1
+/top/DUT/Assertions_inst/wr_ack2_p
+                     Assertions.sv(85)                  0          1
+/top/DUT/Assertions_inst/wr_ack3_p
+                     Assertions.sv(91)                  0          1
+/top/DUT/Assertions_inst/overflow1_p
+                     Assertions.sv(98)                  0          1
+/top/DUT/Assertions_inst/overflow2_p
+                     Assertions.sv(104)                 0          1
+/top/DUT/Assertions_inst/overflow3_p
+                     Assertions.sv(110)                 0          1
+/top/DUT/Assertions_inst/underflow1_p
+                     Assertions.sv(117)                 0          1
+/top/DUT/Assertions_inst/underflow2_p
+                     Assertions.sv(123)                 0          1
+/top/DUT/Assertions_inst/underflow3_p
+                     Assertions.sv(129)                 0          1
+/top/DUT/Assertions_inst/full1_p
+                     Assertions.sv(137)                 0          1
+/top/DUT/Assertions_inst/full2_p
+                     Assertions.sv(143)                 0          1
+/top/DUT/Assertions_inst/almostfull1_p
+                     Assertions.sv(150)                 0          1
+/top/DUT/Assertions_inst/almostfull2_p
+                     Assertions.sv(156)                 0          1
+/top/DUT/Assertions_inst/full_almostfull1_p
+                     Assertions.sv(163)                 0          1
+/top/DUT/Assertions_inst/full_almostfull2_p
+                     Assertions.sv(170)                 0          1
+/top/DUT/Assertions_inst/empty1_p
+                     Assertions.sv(177)                 0          1
+/top/DUT/Assertions_inst/empty2_p
+                     Assertions.sv(183)                 0          1
+/top/DUT/Assertions_inst/almostempty1_p
+                     Assertions.sv(191)                 0          1
+/top/DUT/Assertions_inst/almostempty2_p
+                     Assertions.sv(197)                 0          1
+/top/DUT/Assertions_inst/empty_almostempty1_p
+                     Assertions.sv(205)                 0          1
+/top/DUT/Assertions_inst/empty_almostempty2_p
+                     Assertions.sv(212)                 0          1
+
+=================================================================================
+=== Instance: /FIFO_sequence_pkg
+=== Design Unit: work.FIFO_sequence_pkg
+=================================================================================
+
+Assertion Coverage:
+    Assertions                       3         3         0   100.00%
+--------------------------------------------------------------------
+Name                 File(Line)                   Failure      Pass 
+                                                  Count        Count
+--------------------------------------------------------------------
+/FIFO_sequence_pkg/write_only_sequence/body/#ublk#38615015#40/immed__43
+                     FIFO_sequence.sv(43)               0          1
+/FIFO_sequence_pkg/read_only_sequence/body/#ublk#38615015#62/immed__65
+                     FIFO_sequence.sv(65)               0          1
+/FIFO_sequence_pkg/write_read_sequence/body/#ublk#38615015#85/immed__88
+                     FIFO_sequence.sv(88)               0          1
+
+
+ASSERTION RESULTS:
+--------------------------------------------------------------------
+Name                 File(Line)                   Failure      Pass 
+                                                  Count        Count
+--------------------------------------------------------------------
+/top/DUT/Assertions_inst/max_fifo_addr_p
+                     Assertions.sv(13)                  0          1
+/top/DUT/Assertions_inst/wr_ptr1_p
+                     Assertions.sv(20)                  0          1
+/top/DUT/Assertions_inst/wr_ptr2_p
+                     Assertions.sv(26)                  0          1
+/top/DUT/Assertions_inst/rd_ptr1_p
+                     Assertions.sv(33)                  0          1
+/top/DUT/Assertions_inst/rd_ptr2_p
+                     Assertions.sv(39)                  0          1
+/top/DUT/Assertions_inst/counter1_p
+                     Assertions.sv(47)                  0          1
+/top/DUT/Assertions_inst/counter2_p
+                     Assertions.sv(53)                  0          1
+/top/DUT/Assertions_inst/counter3_p
+                     Assertions.sv(60)                  0          1
+/top/DUT/Assertions_inst/counter4_p
+                     Assertions.sv(66)                  0          1
+/top/DUT/Assertions_inst/counter5_p
+                     Assertions.sv(72)                  0          1
+/top/DUT/Assertions_inst/wr_ack1_p
+                     Assertions.sv(79)                  0          1
+/top/DUT/Assertions_inst/wr_ack2_p
+                     Assertions.sv(85)                  0          1
+/top/DUT/Assertions_inst/wr_ack3_p
+                     Assertions.sv(91)                  0          1
+/top/DUT/Assertions_inst/overflow1_p
+                     Assertions.sv(98)                  0          1
+/top/DUT/Assertions_inst/overflow2_p
+                     Assertions.sv(104)                 0          1
+/top/DUT/Assertions_inst/overflow3_p
+                     Assertions.sv(110)                 0          1
+/top/DUT/Assertions_inst/underflow1_p
+                     Assertions.sv(117)                 0          1
+/top/DUT/Assertions_inst/underflow2_p
+                     Assertions.sv(123)                 0          1
+/top/DUT/Assertions_inst/underflow3_p
+                     Assertions.sv(129)                 0          1
+/top/DUT/Assertions_inst/full1_p
+                     Assertions.sv(137)                 0          1
+/top/DUT/Assertions_inst/full2_p
+                     Assertions.sv(143)                 0          1
+/top/DUT/Assertions_inst/almostfull1_p
+                     Assertions.sv(150)                 0          1
+/top/DUT/Assertions_inst/almostfull2_p
+                     Assertions.sv(156)                 0          1
+/top/DUT/Assertions_inst/full_almostfull1_p
+                     Assertions.sv(163)                 0          1
+/top/DUT/Assertions_inst/full_almostfull2_p
+                     Assertions.sv(170)                 0          1
+/top/DUT/Assertions_inst/empty1_p
+                     Assertions.sv(177)                 0          1
+/top/DUT/Assertions_inst/empty2_p
+                     Assertions.sv(183)                 0          1
+/top/DUT/Assertions_inst/almostempty1_p
+                     Assertions.sv(191)                 0          1
+/top/DUT/Assertions_inst/almostempty2_p
+                     Assertions.sv(197)                 0          1
+/top/DUT/Assertions_inst/empty_almostempty1_p
+                     Assertions.sv(205)                 0          1
+/top/DUT/Assertions_inst/empty_almostempty2_p
+                     Assertions.sv(212)                 0          1
+/FIFO_sequence_pkg/write_only_sequence/body/#ublk#38615015#40/immed__43
+                     FIFO_sequence.sv(43)               0          1
+/FIFO_sequence_pkg/read_only_sequence/body/#ublk#38615015#62/immed__65
+                     FIFO_sequence.sv(65)               0          1
+/FIFO_sequence_pkg/write_read_sequence/body/#ublk#38615015#85/immed__88
+                     FIFO_sequence.sv(88)               0          1
+
+Total Coverage By Instance (filtered view): 100.00%
+
